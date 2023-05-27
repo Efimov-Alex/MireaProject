@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405590994214",
+    "project_id": "mireaproject-ebbe3",
+    "storage_bucket": "mireaproject-ebbe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405590994214:android:9a3f2bf27ef43d8763a5e7",
+        "android_client_info": {
+          "package_name": "ru.mirea.efimovar.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWlQZSYWo0qDlyofzclXF-BYbE_ekcSzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

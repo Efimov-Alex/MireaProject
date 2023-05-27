@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_browser">
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.efimovar.mireaproject.ui.browser.BrowserFragment"
+        android:label="Browser"
+        tools:layout="@layout/fragment_browser" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.efimovar.mireaproject.ui.data.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.efimovar.mireaproject.ui.data.DataFragment"
+        android:label="Data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="ru.mirea.efimovar.mireaproject.ui.maps.MapsFragment"
+        android:label="Maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.efimovar.mireaproject.ui.worker.WorkerFragment"
+        android:label="Worker"
+        tools:layout="@layout/fragment_worker" />
+    <activity
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.efimovar.mireaproject.ui.cameraActivity.CameraActivity"
+        android:label="Camera"
+        tools:layout="@layout/activity_camera" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.efimovar.mireaproject.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_firebase"
+        android:name="ru.mirea.efimovar.mireaproject.ui.firebase.FirebaseFragment"
+        android:label="fragment_firebase"
+        tools:layout="@layout/fragment_firebase" />
+    <activity
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.efimovar.mireaproject.ui.audioActivity.AudioActivity"
+        android:label="activity_audio"
+        tools:layout="@layout/activity_audio" />
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="ru.mirea.efimovar.mireaproject.ui.filesWork.FilesFragment"
+        android:label="fragment_files"
+        tools:layout="@layout/fragment_files" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.efimovar.mireaproject.ui.sensor.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+</navigation>

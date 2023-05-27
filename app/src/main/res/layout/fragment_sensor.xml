@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="408dp"
+            android:layout_height="189dp"
+            android:layout_weight="1"
+            android:text="Датчик магнитного поля земли:" />
+
+        <TextView
+            android:id="@+id/textViewAzimuth"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:layout_weight="1"
+            android:text="Azimuth" />
+
+        <TextView
+            android:id="@+id/textViewPitch"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:layout_weight="1"
+            android:text="Pitch" />
+
+        <TextView
+            android:id="@+id/textViewRoll"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_weight="1"
+            android:text="Roll" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="audio" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@android:drawable/presence_online"
+            android:title="sensor" />
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="filesWork" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="camera" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person"
+            android:title="profile" />
+        <item
+            android:id="@+id/nav_firebase"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="firebase" />
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="worker" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/twotone_navigation_black_48"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Browser" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Data" />
+
+    </group>
+</menu>
